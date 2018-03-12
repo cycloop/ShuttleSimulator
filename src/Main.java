@@ -17,7 +17,6 @@ public class Main {
         for (int i = 0; i < 100; i++) {
             sum2 += sim.runSimulation(phase2U1);
         }
-//        System.out.println(sum2/100);
         System.out.println(sum2/100 + sum/100);
 
 
@@ -34,9 +33,6 @@ public class Main {
         for (int i = 0; i < 100; i++) {
             sum2 += sim.runSimulation(phase2U1);
         }
-//        System.out.println(sum/100);
         System.out.println(sum2/100 + sum/100);
-
-
     }
 }
